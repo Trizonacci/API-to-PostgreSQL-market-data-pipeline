@@ -19,22 +19,23 @@ The goal of this project is to demonstrate practical backend and data skills com
 
 ---
 
-## Project Structure
+### Project Structure
 
+<pre>
 API-to-PostgreSQL-market-data-pipeline/
 ├── src/
-│ ├── main.py # Pipeline entry point
-│ ├── fetch_prices.py # API fetching & data normalization
-│ ├── db.py # Database connection & inserts
-│ ├── config.example.py # Configuration template
-│ └── config.local.py # Local credentials (gitignored)
+│   ├── main.py              # Pipeline entry point
+│   ├── fetch_prices.py      # API fetching & data normalization
+│   ├── db.py                # Database connection & inserts
+│   ├── config.example.py    # Configuration template
+│   └── config.local.py      # Local credentials (gitignored)
 ├── SQL/
-│ ├── 01_basic_checks.sql
-│ ├── 02_joins_and_aggregates.sql
-│ └── 03_analysis_examples.sql
+│   ├── 01_basic_checks.sql
+│   ├── 02_joins_and_aggregates.sql
+│   └── 03_analysis_examples.sql
 ├── requirements.txt
 └── README.md
-
+</pre>
 
 
 ## Data Flow
