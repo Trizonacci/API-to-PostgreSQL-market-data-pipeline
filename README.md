@@ -88,4 +88,4 @@ All example queries are stored in the `/SQL` directory.
 2. Create tables using the provided schema
 3. Copy the config template:
    ```bash
-   cp src/config.example.py src/config.local.py
+   cp src/config.example.py 
