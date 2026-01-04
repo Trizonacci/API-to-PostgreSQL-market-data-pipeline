@@ -88,5 +88,9 @@ All example queries are stored in the `/SQL` directory.
 1. Create a PostgreSQL database named `market_data`
 2. Create tables using the provided schema
 3. Copy the config template:
-   ```bash
-   cp src/config.example.py 
+   cp src/config.example.py
+4. Update database credentials in `src/config.example.py`
+5. Install dependencies:
+   pip install -r requirements.txt
+6. Run the pipeline:
+   python src/main.py
