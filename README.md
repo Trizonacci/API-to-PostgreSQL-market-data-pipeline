@@ -35,7 +35,7 @@ API-to-PostgreSQL-market-data-pipeline/
 ├── requirements.txt
 └── README.md
 
----
+
 
 ## Data Flow
 
